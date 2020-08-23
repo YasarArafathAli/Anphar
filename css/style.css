@@ -65,7 +65,25 @@ button{
 .card{
   margin: 0.5%;
 }
-
 .d-flex{
   flex-wrap: nowrap;
 }
+
+@media all and (max-width: 768px) {
+  .d-flex{
+    flex-wrap: wrap;
+    
+  }
+
+  .card{
+    width: 100%;
+  }
+  .bg-doc {
+    background: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+}
+
