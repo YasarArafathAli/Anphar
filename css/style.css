@@ -14,7 +14,7 @@ html {
 }
 
 .navLogo {
-  width: 60px%;
+  width: 6%;
 }
 
 .jumbotron {
@@ -31,4 +31,41 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff
+}
+
+.about{
+  padding: 10%;
+  margin: 0 ;
+}
+.bg-doc{
+  background: url('../Images/doc.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link{
+color: #fff;
+}
+.bod{
+color: #F8F7F9;
+
+}
+
+button{
+  align-self: center;
+}
+
+
+.board{
+  background-color: #1f232f;
+  height: 100%;
+}
+
+.card{
+  margin: 0.5%;
+}
+
+.d-flex{
+  flex-wrap: nowrap;
 }
