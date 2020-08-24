@@ -7,11 +7,6 @@ html {
   padding-left: 1em;
 }
 
-.cor {
-  width: 2553px;
-  height: 799px;
-  margin: 0;
-}
 
 .navLogo {
   width: 6%;
@@ -26,11 +21,12 @@ html {
 }
 
 .bg-img {
-  background: url('../images/136920.jpg');
+  background: url('../images/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff
+  color: #fff;
+  height: 80vh;
 }
 
 .about{
@@ -38,10 +34,11 @@ html {
   margin: 0 ;
 }
 .bg-doc{
-  background: url('../Images/doc.png');
+  background: url('../Images/doc-small.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80vh;
 }
 
 .nav-link{
@@ -69,7 +66,7 @@ button{
   flex-wrap: nowrap;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 880px) {
   .d-flex{
     flex-wrap: wrap;
     
@@ -80,10 +77,31 @@ button{
   }
   .bg-doc {
     background: none;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 40vh;
     
   }
+  .bg-img{
+    height: 50vh;
+  }
+
 }
 
+@media all and (max-width: 1200px and min-width: 990)  {
+
+
+}
+
+
+
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+.card-img{
+  object-fit: cover;
+}
