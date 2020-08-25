@@ -7,7 +7,9 @@ html {
   padding-left: 1em;
 }
 
-
+nav{
+  background: ###cde1d2;
+}
 .navLogo {
   width: 6%;
 }
@@ -16,6 +18,8 @@ html {
   margin-bottom: 0;
 }
 
+
+}
 #nav-block {
   background-color: #a5a58d;
 }
@@ -34,18 +38,19 @@ html {
   margin: 0 ;
 }
 .bg-doc{
-  background: url('../Images/doc-small.png');
+  background: url('../Images/doc-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+  
 }
 
 .nav-link{
 color: #fff;
 }
 .bod{
-color: #F8F7F9;
+color: #14213d;
 
 }
 
@@ -55,8 +60,15 @@ button{
 
 
 .board{
-  background-color: #1f232f;
-  height: 100%;
+  /* background: rgb(204,223,213);
+background: linear-gradient(-45deg, rgba(204,223,213,1) 73%, rgba(204,223,213,1) 73%, rgba(246,245,243,1) 73%); */
+
+
+background: rgb(204,217,209);
+background: linear-gradient(-45deg, rgba(204,217,209,1) 13%, rgba(241,247,245,1) 13%, rgba(241,247,245,1) 86%, rgba(204,217,209,1) 86%);
+  height: 60vh;
+  padding-top: 2%;
+  
 }
 
 .card{
@@ -65,6 +77,46 @@ button{
 .d-flex{
   flex-wrap: nowrap;
 }
+
+
+#contact{
+  background: rgb(204,217,209);
+  background: linear-gradient(-45deg, rgba(204,217,209,1) 8%, rgba(241,247,245,1) 8%, rgba(241,247,245,1) 73%, rgba(241,247,245,1) 74%, rgba(204,217,209,1) 74%);
+}
+
+
+
+#products {
+  background: rgb(201,219,207);
+  background: linear-gradient(-45deg, rgba(201,219,207,1) 50%, rgba(244,251,247,1) 50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width: 880px) {
   .d-flex{
@@ -83,11 +135,18 @@ button{
   .bg-img{
     height: 50vh;
   }
+  .board{
+    height: 50vh;
+  }
 
 }
 
-@media all and (max-width: 1200px and min-width: 990)  {
+@media all and (max-width: 575px)  {
 
+  .card-img{
+    width: 80vh;
+  }
+  
 
 }
 
