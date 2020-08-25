@@ -46,8 +46,11 @@ body{
 }
 
 .about{
-  padding: 10%;
+ 
   margin: 0 ;
+}
+.life{
+  font
 }
 .bg-doc{
   background: url('../Images/bgg-doc.jpg');
