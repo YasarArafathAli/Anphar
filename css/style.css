@@ -73,6 +73,9 @@ background: linear-gradient(-45deg, rgba(204,223,213,1) 73%, rgba(204,223,213,1)
 
 background: rgb(204,217,209);
 background: linear-gradient(-45deg, rgba(204,217,209,1) 13%, rgba(241,247,245,1) 13%, rgba(241,247,245,1) 86%, rgba(204,217,209,1) 86%);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
   height: 60vh;
   padding-top: 2%;
   
