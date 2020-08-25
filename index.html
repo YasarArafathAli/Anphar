@@ -20,36 +20,41 @@
 
 </head>
 
-<body>
+<body id="home">
 
   <nav class="navbar navbar-expand-lg navbar-light" id="nab-block">
 
-    <a class="navbar-brand navLogo" href="#"><img src="images/logo-nav.png"></a>
+    <a class="navbar-brand navLogo" href="#"> <h1 class=" text-center logo-text ">
+      <span id="">
+        <!-- <img src="images/logo.png" class="log-img w-25 mt-auto mb-auto" /> -->
+         Anphar
+      </span>
+    </h1></a>
 
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse"  id="navbarNav">
+      <div class="collapse navbar-collapse navbar-text"  id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item p-2 active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item text-uppercase font-weight-bold p-2 active">
+            <a class="nav-link text-primary" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#Leadership">Leadership</a>
+          <li class="nav-item text-uppercase font-weight-bold p-2">
+            <a class="nav-link text-primary" href="#about">About US</a>
           </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#products">Products</a>
+          <li class="nav-item text-uppercase font-weight-bold p-2">
+            <a class="nav-link text-primary" href="#products">Products</a>
           </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#QualitandSaftety">Quality and Safety</a>
+          <li class="nav-item text-uppercase font-weight-bold p-2">
+            <a class="nav-link text-primary" href="#quality">Quality and Safety</a>
           </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#BusinessConduct">Business Conduct</a>
+          <li class="nav-item text-uppercase font-weight-bold p-2">
+            <a class="nav-link text-primary" href="#value">Values and Ecosystem</a>
           </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">Contact Us</a>
+          <li class="nav-item text-uppercase font-weight-bold p-2">
+            <a class="nav-link text-primary" href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -59,16 +64,15 @@
     <div class="container ">
       <div class="row ">
         <div class="col-12 text-center">
-          <h1 class=" text-center">
+          <h1 class=" text-center logo-text ">
             <span id="">
               <!-- <img src="images/logo.png" class="log-img w-25 mt-auto mb-auto" /> -->
-              <h1 class="logo-text"> Anphar</h1>
+               Anphar
             </span>
           </h1>
           <hr width="40%" id="hrjumbo">
-          <p class="jump text-center">Creating Quality Molecules With Catalyst Ideas</p>
-          <button class="btn btn-success btn-lg ">Learn More</button>
-          <span id="whyAnphar"></span>
+          <p class="text-black-50 jump text-center ">Creating Quality Molecules With Catalyst Ideas</p>
+          <a href="#about" class="btn btn-success btn-lg ">Learn More</a>
 
         </div>
       </div>
@@ -79,7 +83,7 @@
 
     </div>
   </div>
-  <div class="bg-doc">
+  <div id="about" class="bg-doc">
 
     <div class="container  ml-auto about ">
 
@@ -249,7 +253,7 @@
           <details>
             <summary>Employees in Anphar
             </summary>
-            <p>mployees in Anphar work according to a comprehensive set of policies and procedures,
+            <p>Employees in Anphar work according to a comprehensive set of policies and procedures,
               participating in ongoing quality and safety certification and training programs as well as cGMP and Good Clinical
               Practice (GCP) training and certification.</p>
           </details>
@@ -280,7 +284,7 @@
             Business Conduct
           </h2>
           <details>
-            <summary> One Priority</summary>
+            <summary> Conduct</summary>
             <p>
               Since Anphar’s inception, employees have worked together to contribute to our mission of advancing patient care
         by developing therapeutics to treat diseases. Fundamental to this mission is Anphar’s
@@ -290,7 +294,7 @@
             </p>
           </details>
           <details>
-            <summary>Processes and Systems</summary>
+            <summary>Responsibility</summary>
             <p>
               It is the responsibility of every Anphar employee to be knowledgeable about, and comply with, Anphar’s
         business conduct policies.
@@ -299,7 +303,7 @@
             </p>
           </details>
           <details>
-            <summary>Employees in Anphar
+            <summary>Ethics
             </summary>
             <p>At Anphar we are committed to meeting high ethical standards and complying with all applicable local,
               national and international laws wherever we do business. Our ethical standards are embodied in our Corporate
@@ -343,14 +347,14 @@
             </p>
           </details>
           <details>
-            <summary>Employees in Anphar
+            <summary>Discipline
             </summary>
             <p> We follow the regulations governing testing, approval, manufacture, and distribution of our products because we are
               both morally and legally obligated to do this—
               the people who rely on our products deserve nothing less.</p>
           </details>
           <details>
-            <summary>Policies and Procedures
+            <summary>Commitment
             </summary>
             <p>Anphar is deeply committed to its employees. Our goal is to enable everyone to feel supported,
               treated with respect, and deserving of the same treatment from co-workers that we extend to our customers and
@@ -431,8 +435,8 @@
               <!-- Grid column -->
               <div class="col-md-6">
                   <div class="md-form mb-0">
+                    <label for="contact-name" class="">Your name</label>
                   <input type="text" id="contact-name" class="form-control">
-                  <label for="contact-name" class="">Your name</label>
                   </div>
               </div>
               <!-- Grid column -->
@@ -440,8 +444,8 @@
               <!-- Grid column -->
               <div class="col-md-6">
                   <div class="md-form mb-0">
+                    <label for="contact-email" class="">Your email</label>
                   <input type="text" id="contact-email" class="form-control">
-                  <label for="contact-email" class="">Your email</label>
                   </div>
               </div>
               <!-- Grid column -->
@@ -455,8 +459,8 @@
               <!-- Grid column -->
               <div class="col-md-12">
                   <div class="md-form mb-0">
+                    <label for="contact-Subject" class="">Subject</label>
                   <input type="text" id="contact-Subject" class="form-control">
-                  <label for="contact-Subject" class="">Subject</label>
                   </div>
               </div>
               <!-- Grid column -->
@@ -470,8 +474,8 @@
               <!-- Grid column -->
               <div class="col-md-12">
                   <div class="md-form">
+                    <label for="contact-message">Your message</label>
                   <textarea type="text" id="contact-message" class="form-control md-textarea" rows="3"></textarea>
-                  <label for="contact-message">Your message</label>
                   </div>
               </div>
               <!-- Grid column -->
@@ -527,14 +531,14 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </h6>
       </div>
       <!-- Grid column -->
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#Leadership">About us</a>
+          <a href="#about">About us</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -542,7 +546,7 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#Products">Products</a>
+          <a href="#products">Products</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -550,7 +554,7 @@
       <!-- Grid column -->
       <div class="col-md-3 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#QualityandSaftety">Quality and Saftety</a>
+          <a href="#quality">Quality and Saftety</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -558,7 +562,7 @@
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
-          <a href="#BusinessConduct">Business Conduct</a>
+          <a href="#value">Values and Ecosystem</a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -645,13 +649,7 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Menu Toggle Script -->
-  <!-- <script>
-    $("#menu-toggle").click(function (e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script> -->
+  
 </body>
 
 </html>

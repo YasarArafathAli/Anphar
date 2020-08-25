@@ -16,6 +16,10 @@ body{
   width: 6%;
 }
 
+#navbarNav{
+  color: #007bff !important;
+}
+
 .jumbotron {
   margin-bottom: 0;
 }
@@ -23,6 +27,7 @@ body{
 .logo-text{
   font-family: 'Pacifico', cursive;
   font-size-adjust: inherit;
+  color: #e63946;
 }
 
 }
@@ -31,7 +36,7 @@ body{
 }
 
 .bg-img {
-  background: url('../images/bg1.jpg');
+  background: url('../images/bg6.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,8 +229,8 @@ details p {
     width: 100%;
   }
   .bg-doc {
-     background: rgb(201,219,207);
-  background: linear-gradient(-45deg, rgba(201,219,207,1) 50%, rgba(244,251,247,1) 50%);
+    background: rgb(185,231,242);
+    background: linear-gradient(-50deg, rgba(185,231,242,1) 47%, rgba(239,245,243,1) 47%);
     height: auto;
     
   }
