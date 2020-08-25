@@ -5,13 +5,15 @@ html {
   scroll-behavior: smooth;
 }
 
-
+body{
+  
+}
 #logo {
   padding-left: 1em;
 }
 
 nav{
-  background: ###cde1d2;
+  background: #cde1d2;
 }
 .navLogo {
   width: 6%;
@@ -45,7 +47,7 @@ nav{
   margin: 0 ;
 }
 .bg-doc{
-  background: url('../Images/doc-bg.png');
+  background: url('../Images/bgg-doc.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,12 +69,8 @@ button{
 
 
 .board{
-  /* background: rgb(204,223,213);
-background: linear-gradient(-45deg, rgba(204,223,213,1) 73%, rgba(204,223,213,1) 73%, rgba(246,245,243,1) 73%); */
-
-
-background: rgb(204,217,209);
-background: linear-gradient(-45deg, rgba(204,217,209,1) 13%, rgba(241,247,245,1) 13%, rgba(241,247,245,1) 86%, rgba(204,217,209,1) 86%);
+  background: rgb(185,231,242);
+background: linear-gradient(-50deg, rgba(185,231,242,1) 16%, rgba(239,245,243,1) 16%, rgba(239,245,243,1) 84%, rgba(185,231,242,1) 84%);
 
   height: 60vh;
   padding-top: 2%;
@@ -90,22 +88,19 @@ background: linear-gradient(-45deg, rgba(204,217,209,1) 13%, rgba(241,247,245,1)
 
 
 #contact{
-  /* background: rgb(204,217,209);
-  background: linear-gradient(-45deg, rgba(241,247,245,1) 73%, rgba(241,247,245,1) 74%, rgba(204,217,209,1) 74%,  rgba(204,217,209,1) 8%, rgba(241,247,245,1) 8%); */
-
   background: rgb(239,245,243);
-background: linear-gradient(-45deg, rgba(239,245,243,1) 15%, rgba(204,217,209,1) 15%, rgba(204,217,209,1) 73%, rgba(239,245,243,1) 73%);
+  background: linear-gradient(-50deg, rgba(239,245,243,1) 63%, rgba(185,231,242,1) 63%);  
 }
 
 
 
 #products {
 
-  /* background: rgb(204,217,209);
-  background: linear-gradient(-45deg, rgba(204,217,209,1) 43%, rgba(241,247,245,1) 43%);  */
 
-  background: rgb(241,247,245);
-background: linear-gradient(-45deg, rgba(241,247,245,1) 30%, rgba(204,217,209,1) 30%);
+ 
+
+  background: rgb(185,231,242);
+  background: linear-gradient(-50deg, rgba(185,231,242,1) 41%, rgba(239,245,243,1) 41%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,6 +108,87 @@ background: linear-gradient(-45deg, rgba(241,247,245,1) 30%, rgba(204,217,209,1)
 
 }
 
+#quality{
+  background: rgb(239,245,243);
+background: linear-gradient(-50deg, rgba(239,245,243,1) 56%, rgba(185,231,242,1) 56%);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+#conduct{
+  background: rgb(185,231,242);
+background: linear-gradient(-50deg, rgba(185,231,242,1) 9%, rgba(239,245,243,1) 9%, rgba(239,245,243,1) 82%, rgba(185,231,242,1) 82%);
+}
+
+
+#value{
+  background: rgb(185,231,242);
+background: linear-gradient(-50deg, rgba(185,231,242,1) 22%, rgba(239,245,243,1) 22%, rgba(239,245,243,1) 92%, rgba(185,231,242,1) 92%);
+}
+#env{
+  background: rgb(185,231,242);
+background: linear-gradient(-50deg, rgba(185,231,242,1) 47%, rgba(239,245,243,1) 47%);
+}
+
+footer{
+  background: rgb(239,245,243);
+background: linear-gradient(-50deg, rgba(239,245,243,1) 88%, rgba(185,231,242,1) 88%);
+}
+
+details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 1px solid black;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+details summary:after {
+  content: "+";
+  color: black;
+  position: absolute;
+  font-size: 1.75rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+details summary {
+  outline: 0;
+}
+details p {
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+}
 
 
 
