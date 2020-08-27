@@ -6,6 +6,8 @@ html {
 }
 
 body{
+
+  font-size: .8rem;
   
 }
 #logo {
@@ -28,6 +30,7 @@ body{
   font-family: 'Pacifico', cursive;
   font-size-adjust: inherit;
   color: #e63946;
+  font-size: 2.2rem;
 }
 
 }
@@ -36,11 +39,7 @@ body{
 }
 
 .bg-img {
-  background: url('../images/bg6.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+  background-image: url('../Images/bg6.jpg') no-repeat center center cover;
   color: #fff;
   height: 80vh;
 }
@@ -235,10 +234,12 @@ details p {
     background: rgb(185,231,242);
     background: linear-gradient(-50deg, rgba(185,231,242,1) 47%, rgba(239,245,243,1) 47%);
     height: auto;
+    margin: auto;
     
   }
   .bg-img{
     height: auto;
+
   }
   .board{
     height: auto;
