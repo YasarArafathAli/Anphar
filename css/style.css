@@ -39,8 +39,11 @@ body{
 }
 
 .bg-img {
-  background-image: url('../Images/bg6.jpg') no-repeat center center cover;
-  color: #fff;
+  background-image: url('../Images/bg6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: #fff; */
   height: 80vh;
 }
 
