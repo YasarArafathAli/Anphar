@@ -1,13 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Raleway:wght@500&display=swap');
+
 
 html {
   scroll-behavior: smooth;
 }
 
 body{
+  /* font-family: 'Coda', cursive; */
+  font-family:'Raleway', sans-serif;
 
-  font-size: .8rem;
+  /* font-size: .9rem; */
   
 }
 #logo {
@@ -15,45 +18,45 @@ body{
 }
 
 .navLogo {
-  width: 6%;
+  width: 10%;
 }
 
-#navbarNav{
-  color: #007bff !important;
+.navbarNav{
+  background-color: #eff5f3;
+  
 }
 
 .jumbotron {
   margin-bottom: 0;
 }
 
-.logo-text{
-  font-family: 'Pacifico', cursive;
-  font-size-adjust: inherit;
-  color: #e63946;
-  font-size: 2.2rem;
+.nav-link{
+color: #14213d;
 }
 
+.head-top .nav-link{
+  color: #F4F7F6;
+  }
+
+.head{
+  
+  font-family: 'Coda', cursive;
+  color: #F4F7F6;
+  font-size: 3rem;
 }
-#nav-block {
-  background-color: #a5a58d;
-}
+
 
 .bg-img {
-  background-image: url('../Images/bg6.jpg');
+  background-image: url('../Images/bg-atom.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* color: #fff; */
   height: 80vh;
+  /* height: auto; */
 }
 
-.about{
- 
-  margin: 0 ;
-}
-.life{
-  font
-}
+
 .bg-doc{
   background: url('../Images/bgg-doc.jpg');
   background-position: center;
@@ -63,9 +66,6 @@ body{
   
 }
 
-.nav-link{
-color: #fff;
-}
 .bod{
 color: #14213d;
 
@@ -80,7 +80,8 @@ button{
   background: rgb(185,231,242);
 background: linear-gradient(-50deg, rgba(185,231,242,1) 16%, rgba(239,245,243,1) 16%, rgba(239,245,243,1) 84%, rgba(185,231,242,1) 84%);
 
-  height: 60vh;
+  /* height: 60vh; */
+  height: auto;
   padding-top: 2%;
   
 }
@@ -122,6 +123,12 @@ background: linear-gradient(-50deg, rgba(239,245,243,1) 56%, rgba(185,231,242,1)
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+
+}
+
+.head-top{
+  background: rgb(41,46,50);
+background: linear-gradient(-45deg, rgba(41,46,50,1) 85%, rgba(185,231,242,1) 85%);
 
 }
 
@@ -202,6 +209,60 @@ details p {
 
 
 
+/* =========== contact form  ======================== */
+
+
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  /* color: #5543ca; */
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background: #064497;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
 
 
 
@@ -244,10 +305,6 @@ details p {
     height: auto;
 
   }
-  .board{
-    height: auto;
-  }
-  .display-2, .display-4:disabled
 
 }
 
