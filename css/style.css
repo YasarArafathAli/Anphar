@@ -134,6 +134,13 @@ background: linear-gradient(-50deg, rgba(185,231,242,1) 16%, rgba(239,245,243,1)
 #contact{
   /* background: rgb(239,245,243);
   background: linear-gradient(-50deg, rgba(239,245,243,1) 63%, rgba(185,231,242,1) 63%);   */
+  
+  background: url('../Images/bgp.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 .btn-main{
@@ -251,11 +258,17 @@ section {
 
 
 .tabs{
-  background: #f8f9fb;
+  background: url('../Images/parlx-bg-tab.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 50px 120px;
 }
 
-
+.box-tab{
+  opacity: .8;
+}
 
 .lined .nav-link {
   border: none;
