@@ -33,11 +33,18 @@ body{
 .nav-link{
 color: #14213d;
 }
+.nav-link:hover{
+  color: #FF101F;
+}
 
 .head-top .nav-link{
   color: #F4F7F6;
   }
 
+  .active{
+    border-bottom: 2px #FF101F solid;
+  
+  }
 .head{
   
   font-family: 'Coda', cursive;
@@ -52,7 +59,7 @@ color: #14213d;
   background-repeat: no-repeat;
   background-size: cover;
   /* color: #fff; */
-  height: 80vh;
+  height: 100vh;
   /* height: auto; */
 }
 
@@ -62,7 +69,7 @@ color: #14213d;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 80vh;
   
 }
 
@@ -101,7 +108,9 @@ background: linear-gradient(-50deg, rgba(185,231,242,1) 16%, rgba(239,245,243,1)
   background: linear-gradient(-50deg, rgba(239,245,243,1) 63%, rgba(185,231,242,1) 63%);  
 }
 
-
+.btn-main{
+  background-color: #50e3c2;
+}
 
 #products {
 
@@ -230,15 +239,15 @@ details p {
 .contact-form .input-text:focus {
   outline: none;
 }
-.contact-form .input-text:focus + .label,
+/* .contact-form .input-text:focus + .label,
 .contact-form .input-text.not-empty + .label {
   -webkit-transform: translateY(-24px);
           transform: translateY(-24px);
-}
+} */
 .contact-form .label {
-  position: absolute;
+  /* position: absolute;
   left: 20px;
-  bottom: 11px;
+  bottom: 11px; */
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
@@ -286,10 +295,11 @@ details p {
     
   }
 
-  .about{
+  /* .about{
     padding: 5px;
     margin: 0 ;
-  }
+  } */
+
 
   .card{
     width: 100%;
@@ -305,6 +315,7 @@ details p {
     height: auto;
 
   }
+
 
 }
 
