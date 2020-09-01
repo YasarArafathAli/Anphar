@@ -270,7 +270,6 @@ section {
   border: none;
   border-bottom: 3px solid transparent;
 }
-
 .lined .nav-link.active {
   background: none;
   color: #555;
@@ -364,7 +363,6 @@ section {
     padding: 0;
     margin: 0 ;
   }
-
 
   .card{
     width: 100%;
