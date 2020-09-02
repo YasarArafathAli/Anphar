@@ -17,12 +17,12 @@ body{
   padding-left: 1em;
 }
 
-#top-nav {
+#navbar {
   /* position: fixed; */
   /* top: 0; */
   /* width: 100%; */
   /* display: block;1 */
-  transition: top 0.3s;
+  transition: top 0.5s;
 }
 
 .navLogo {
@@ -39,7 +39,7 @@ body{
 }
 
 .nav-link{
-color: #EAF2D7;
+color: #222;
 }
 .nav-link:hover{
   color: #FF101F;
@@ -62,7 +62,7 @@ color: #EAF2D7;
 
 
 .bg-img {
-  background-image: url('../Images/bg-atom.png');
+  background-image: url('../Images/iobg4.png');
  
   background-position: center;
   background-repeat: no-repeat;
@@ -253,9 +253,9 @@ details p {
 
 
 /* Tabs*/
-section {
+/* section {
     padding: 25px 5px;
-}
+} */
 
 
 .tabs{
