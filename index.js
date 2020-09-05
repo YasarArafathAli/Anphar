@@ -36,14 +36,14 @@
 
 
 
-  $(document).ready(function() {
-    $(window).scroll(function() {
-      if ($(document).scrollTop() > 80) {
-        $("#navbar").removeClass("bg-transparent");
-        $("#navbar").addClass("navbar-dark");
-      } else {
-        $("#navbar").addClass("bg-transparent");
-        $("#navbar").removeClass("navbar-dark");
-      }
-    });
-  });
+  // $(document).ready(function() {
+  //   $(window).scroll(function() {
+  //     if ($(document).scrollTop() > 80) {
+  //       $("#navbar").removeClass("bg-transparent");
+  //       $("#navbar").addClass("navbar-dark");
+  //     } else {
+  //       $("#navbar").addClass("bg-transparent");
+  //       $("#navbar").removeClass("navbar-dark");
+  //     }
+  //   });
+  // });

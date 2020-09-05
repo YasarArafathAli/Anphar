@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6{
   /* width: 100%; */
   /* display: block;1 */
   transition: top 0.5s;
+  background: url('../Images/bgp.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navLogo {
