@@ -3,33 +3,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600&display=swap');
 
-
 html {
   scroll-behavior: smooth;
+  
+width:100%;
+height:100%;
 }
 
 body{
   /* font-family: 'Coda', cursive; */
   font-family:'Raleway', sans-serif;
-
+  width:100%;
+  height:100%;
   /* font-size: .9rem; */
   
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Mirza', cursive;
+  font-family: 'Coda', cursive;
 }
+
+/* ============================================= Navbar ============================== */
 #logo {
   padding-left: 1em;
 }
 
 #navbar {
-  /* position: fixed; */
-  /* top: 0; */
-  /* width: 100%; */
-  /* display: block;1 */
   transition: top 0.5s;
   background-color: #F4F7F6;
-  
   
 }
 
@@ -41,6 +41,8 @@ h1, h2, h3, h4, h5, h6{
   background-color: #172A3A;
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.25);
 }
+
+
 
 .jumbotron {
   margin-bottom: 0;
@@ -56,16 +58,13 @@ color: #222;
   color: #2b90d9;
 }
 
-.head-top .nav-link{
-  color: #F4F7F6;
-  }
-
-  .current{
+.current{
     border-bottom: 2px #2b90d9 solid;
   
-  }
+}
+
+/* ==================================== Landing Banner ================================== */
 .head{
-  
   font-family: 'Coda', cursive;
   color: #F4F7F6;
   font-size: 3rem;
@@ -74,68 +73,61 @@ color: #222;
 
 .bg-img {
   background-image: url('../Images/iobg4.png');
- 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* color: #fff; */
   height: 100vh;
+  /* color: #fff; */
   /* height: auto; */
 }
 
+/* =============================================About page Banner============================================ */
 
 .bg-doc{
   height: 100vh;
-  background: url('../Images/bg-cap.jpg'), url('../Images/bgp.jpg');
-  background-attachment: scroll, fixed;
+  background: url('../Images/bg-cap.png'), url('../Images/bgp.jpg');
+  background-attachment: fixed, fixed;
   background-position: center;
   background-repeat:  no-repeat;
   background-size:  cover;
   
 }
 
+
 .abt-txt{
   border-radius: 20px;
-  background-color: rgba(250, 250, 250, .4);
+  background-color: rgba(68,193,239,.3);
 }
 
-.life{
-  color: #04dbe3;
-}
+/* ============================================== Board of directors ====================== */
 
-.bod{
-color: #14213d;
-
-}
-
-/* #about{
-  background: url('../Images/bg-cap.jpg'),url('../Images/bgp.jpg');
-  background-attachment: scroll, fixed;
-  background-position: center, center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
+.board{
  
-} */
+  background: #eeeeee;
+  background-attachment:  fixed;
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  height: 90vh ;
+  padding-top: 2%;
+  
+  /* height: 60vh; */
+  
+}
+.bod{
+  color: #14213d;
 
-.abs-abt{
-  position: absolute;
-  right: 20px;
 }
 
-button{
+button {
   align-self: center;
 }
 
 
-.board{
-  /* background: rgb(185,231,242);
-background: linear-gradient(-50deg, rgba(185,231,242,1) 16%, rgba(239,245,243,1) 16%, rgba(239,245,243,1) 84%, rgba(185,231,242,1) 84%); */
-
-  /* height: 60vh; */
-  height: 90vh ;
-
-  padding-top: 2%;
-  
+.bod-card{
+  background: #F4F7F6;
+  border: #000 1px solid;
+  padding-top: 15px;
 }
 
 .card{
@@ -147,73 +139,56 @@ background: linear-gradient(-50deg, rgba(185,231,242,1) 16%, rgba(239,245,243,1)
   flex-wrap: nowrap;
 }
 
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
 
-#contact{
-  /* background: rgb(239,245,243);
-  background: linear-gradient(-50deg, rgba(239,245,243,1) 63%, rgba(185,231,242,1) 63%);   */
-  
-  background: url('../Images/bgp.jpg');
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+.card-img{
+  object-fit: cover;
+}
+
+
+/* ========================================== Tabs========================================= */
+
+.tabs{
+  background: url('../Images/parlx-bg-tab.jpg');
   background-attachment: fixed;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
- 
+  padding: 120px 120px;
+  height: auto;
 }
 
-.btn-main{
-  background-color: #50e3c2;
+.box-tab{
+  background-color: rgba(248,	249,	251, .85);
+  border-radius: 5%;
 }
 
-#products {
-
-  background: url('../Images/bgp.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-
-  /* background: rgb(185,231,242);
-  background: linear-gradient(-50deg, rgba(185,231,242,1) 41%, rgba(239,245,243,1) 41%); */
-
+.lined .nav-link {
+  border: none;
   
-
+  color: #172A3A;
+  border-bottom: 3px solid transparent;
+}
+.lined .nav-link:hover{
+  color: #2b90d9;
+}
+.lined .nav-link:hover {
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+.lined .nav-link.active {
+  background: none;
+  color: #555;
+  border-color: #2b90d9;
 }
 
-#quality{
-  /* background: rgb(239,245,243);
-background: linear-gradient(-50deg, rgba(239,245,243,1) 32%, rgba(185,231,242,1) 56%);
- */
-
-
-}
-
-.head-top{
-  /* background: rgb(41,46,50);
-background: linear-gradient(-45deg, rgba(41,46,50,1) 85%, rgba(185,231,242,1) 85%); */
-
-}
-
-
-#conduct{
-  /* background: rgb(185,231,242);
-background: linear-gradient(-50deg, rgba(185,231,242,1) 9%, rgba(239,245,243,1) 9%, rgba(239,245,243,1) 82%, rgba(185,231,242,1) 82%); */
-}
-
-
-#value{
-  /* background: rgb(185,231,242);
-background: linear-gradient(-50deg, rgba(185,231,242,1) 22%, rgba(239,245,243,1) 22%, rgba(239,245,243,1) 92%, rgba(185,231,242,1) 92%); */
-}
-#env{
-  /* background: rgb(185,231,242);
-background: linear-gradient(-50deg, rgba(185,231,242,1) 47%, rgba(239,245,243,1) 47%); */
-}
-
-footer{
-  /* background: rgb(239,245,243);
-background: linear-gradient(-50deg, rgba(239,245,243,1) 88%, rgba(185,231,242,1) 88%); */
-}
+/* ===========================Tabs Content ==================== */
 
 details[open] summary ~ * {
   animation: open 0.3s ease-in-out;
@@ -274,39 +249,20 @@ details p {
 } */
 
 
-.tabs{
-  background: url('../Images/parlx-bg-tab.jpg');
+
+
+/* ============================================= Contact ============================================== */
+
+#contact{
+ 
+  background: url('../Images/bgp.jpg');
   background-attachment: fixed;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 120px 120px;
-  height: auto;
+  background-size: cover;
+ 
 }
 
-.box-tab{
-  background-color: rgba(248,	249,	251, .85);
-  border-radius: 5%;
-}
-
-.lined .nav-link {
-  border: none;
-  
-  color: #172A3A;
-  border-bottom: 3px solid transparent;
-}
-.lined .nav-link:hover{
-  color: #2b90d9;
-}
-.lined .nav-link:hover {
-  border: none;
-  border-bottom: 3px solid transparent;
-}
-.lined .nav-link.active {
-  background: none;
-  color: #555;
-  border-color: #2b90d9;
-}
 
 
 /* =========== contact form  ======================== */
@@ -369,23 +325,31 @@ details p {
 }
 
 
+/* ==================================   Products   ===================================================== */
+
+#products {
+
+  background: url('../Images/bgp.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
+/* ========================================= Footer ========================================================= */
+
+
 .footer-copyright{
   background-color: #172A3A;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* =========================================== MEDIA QUERIES =========================== */
 
 @media all and (max-width: 880px) {
   .d-flex{
@@ -412,7 +376,7 @@ details p {
   
   }
   .bg-img{
-    height: auto;
+    height: 80vh;
 
   }
   
@@ -440,23 +404,17 @@ details p {
 
   }
   .abt-txt{
-    background-color: rgba(250, 250, 250, .95);
+    background-color: rgba(68,193,239,.8);
+    font-size: .9rem;
   }
   
 
 }
 
-
-
-
-.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
-
-small {
-display: block;
-line-height: 1.428571429;
-color: #999;
+@media all and (max-width: 400px){
+  .box-tab{
+    padding: 0;
+  }
 }
 
-.card-img{
-  object-fit: cover;
-}
+
