@@ -55,8 +55,8 @@
 
 .skill-card .skill-card__header {
 	position: relative;
-	background-color: #016ba9;
-	height: 200px;
+	background-color: #01a1d5;
+	height: 220px;
 	margin: -20px -20px 20px -20px;
 	transition: height .5s;
 	overflow: hidden;
@@ -72,7 +72,7 @@
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
 	display: block;
-	width: 140px;
+	width: 150px;
 	height: 140px;
 	transition: transform .5s;
 }
