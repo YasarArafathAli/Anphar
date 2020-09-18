@@ -6,7 +6,7 @@
 html {
   scroll-behavior: smooth;
   
-width:100%;
+width:100vw;
 height:100%;
 }
 
@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Coda', cursive;
 }
 
+.bg-black{
+  background-color: #1d2228;
+}
 /* ============================================= Navbar ============================== */
 #logo {
   padding-left: 1em;
@@ -42,8 +45,6 @@ h1, h2, h3, h4, h5, h6{
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.25);
 }
 
-
-
 .jumbotron {
   margin-bottom: 0;
 }
@@ -62,6 +63,10 @@ color: #222;
     border-bottom: 2px #2b90d9 solid;
   
 }
+ .dropdown-menu a:hover{
+  color: #2b90d9;
+ }
+ 
 
 /* ==================================== Landing Banner ================================== */
 .head{
@@ -336,17 +341,23 @@ details p {
   background-size: cover;
 
 }
-
-
-
-
-/* ========================================= Footer ========================================================= */
-
-
-.footer-copyright{
-  background-color: #172A3A;
+/* ==================================   Media   ===================================================== */
+.card-title{
+  text-align: center;
 }
 
+.card:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* ========================================= Footer ========================================================= */
+.page-footer{
+  background: #c7ecfa;
+  /* background:#1f1f1f url('/images/bg-structure-molecule.jpg')!important; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* =========================================== MEDIA QUERIES =========================== */
@@ -370,9 +381,6 @@ details p {
     background: linear-gradient(-50deg, rgba(185,231,242,1) 47%, rgba(239,245,243,1) 47%); */
   font-size: x-small;
   
-  .board{
-    height: auto;
-  }
   
   }
   .bg-img{
@@ -417,4 +425,37 @@ details p {
   }
 }
 
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
 

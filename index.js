@@ -47,3 +47,42 @@
   //     }
   //   });
   // });
+
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+  $('#myModal').modal({
+    keyboard: false
+  })
+
+  $('#myModal').modal('toggle')
+
+  $('#myModal').modal('show')
+
+  $('#myModal').modal('hide')
+
+  $('#myModal').modal('handleUpdate')
+
+  $('#recipeCarousel').carousel({
+    interval: 10000
+  })
+  
+  $('.carousel .carousel-item').each(function(){
+      var minPerSlide = 3;
+      var next = $(this).next();
+      if (!next.length) {
+      next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      
+      for (var i=0;i<minPerSlide;i++) {
+          next=next.next();
+          if (!next.length) {
+            next = $(this).siblings(':first');
+          }
+          
+          next.children(':first-child').clone().appendTo($(this));
+        }
+  });
+  
